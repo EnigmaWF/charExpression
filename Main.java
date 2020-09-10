@@ -6,9 +6,6 @@ public class Main {
         int a = sc.nextInt();
         sc.close();
         System.out.println(charExpression(a));
-
-
-
     }
     public static char charExpression(int a) {
         int s = '\\' + a;
